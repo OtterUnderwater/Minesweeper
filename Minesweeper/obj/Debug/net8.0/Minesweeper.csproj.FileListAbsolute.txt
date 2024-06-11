@@ -103,3 +103,4 @@ D:\otter\api\Minesweeper\Minesweeper\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.
 D:\otter\api\Minesweeper\Minesweeper\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\otter\api\Minesweeper\Minesweeper\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\otter\api\Minesweeper\Minesweeper\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\otter\api\Minesweeper\Minesweeper\obj\Debug\net8.0\Minesweeper.sourcelink.json

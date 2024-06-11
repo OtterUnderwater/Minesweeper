@@ -229,27 +229,5 @@ namespace Minesweeper.Controllers
 			dbContext.SaveChanges();
 		}
 
-		private void OpenAdjacentCells(int row, int col)
-		{
-			if (row < 0 || col < 0 || row >= field.GetLength(0) || col >= field.GetLength(1) || needGame.Field[row, col] != " ")
-			{
-				return;
-			}
-			needGame.Field[row, col] = field[row, col];
-
-			for (int i = -1; i <= 1; i++)
-			{
-				for (int j = -1; j <= 1; j++)
-				{
-					int newRow = row + i;
-					int newCol = col + j;
-					if (newRow >= 0 && newRow < field.GetLength(0) && newCol >= 0 && newCol < field.GetLength(1))
-					{
-						OpenAdjacentCells(newRow, newCol);
-					}
-				}
-			}
-		}
-
 	}
 }
